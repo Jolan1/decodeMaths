@@ -1,10 +1,4 @@
 import './App.css';
-<<<<<<< HEAD
-import { Route, Switch } from 'react-router-dom';
-import QuestionContainer from './containers/QuestionContainer';
-import Results from './components/Results';
-import Home from './components/Home';
-=======
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import NavBar from './components/NavBar.js';
 import gcse from './pages/gcse';
@@ -15,20 +9,11 @@ import homePage from './pages/homePage';
 import Footer from './components/Footer';
 
 
->>>>>>> Jessica2
 
 
 function App() {
   return (
     <div className="App">
-<<<<<<< HEAD
-      <Switch>
-      <Route exact path="/" component={Home} />
-        <Route path="/questions" component={QuestionContainer} />
-        <Route path="/results" component={Results} />
-        <Route component={Error} />
-      </Switch>
-=======
        
        <Router>
       <div className="app">
@@ -45,7 +30,6 @@ function App() {
       <Footer/>  
       </div>
     </Router>
->>>>>>> Jessica2
     </div>
   );
 }
